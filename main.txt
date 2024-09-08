@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>SILICON AIRLINES</title>
+  <link rel="stylesheet" type="text/css" href="style.css">
+  <link rel="stylesheet" href="light.css" id="themeStylesheet">
+</head>
+<body>
+  <header>
+    <h1>SILICON AIRLINES &#x2708</h1>
+    <button id="themeToggle">
+      <img src="https://png.pngtree.com/png-clipart/20210829/original/pngtree-dark-mode-icon-light-png-clipart-png-image_6661697.jpg" width="10px" height="10px">
+    </img>
+    </button>
+    <nav>
+      <ul>
+        <li><a href="#about">About Us</a></li>
+        <li><a href="#contact">Contact Us</a></li>
+        <input type="submit" onClick="myFunction()" value="login"/>
+
+      </ul>
+  
+    </nav>
+  </header>
+  <marquee style="color: rgb(0, 0, 0);"> <b>WELCOME TO SILICON AIRLINES</b></marquee>
+  <div class="video-wrapper">
+    <video playsinline autoplay muted loop poster="airplane.jpg">
+      <source src="https://cdn.pixabay.com/vimeo/674268761/green-screen-106915.mp4?width=640&hash=e0552848bbfac036041cfa10b9058d322e44151f" type="video/mp4">
+      Your browser does not support the video tag.
+    </video>
+  </div>
+</body>
+</html>
+<script src="script.js"></script>
+<script src="theme.js"></script>
+<script>
+    function myFunction()
+    {
+        window.location.href = "project1.html"
+    }
+</script>
